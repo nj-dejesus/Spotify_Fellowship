@@ -11,12 +11,12 @@
 
 int main()
 {
-    
+
     int x = choice();
     
     if (x == 1)
     {
-        reverseString();
+        reversedString();
     }
     else if( x == 2)
     {
@@ -24,9 +24,15 @@ int main()
     }
     else
     {
-        cout<<"WRONG CHOICE... RETRY"<<endl;
-        choice();
+        if (x == 3)
+        {
+            return 0;
+        }
+
+        else
+            cout<<"WRONG CHOICE... RETRY"<<endl;
+            choice();
     }
-    cin.get();
-    return 0;
+
+    
 }

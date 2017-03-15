@@ -11,7 +11,7 @@
 		6A3C201F1E7513EE008FCFA2 /* choice.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6A3C201D1E7513EE008FCFA2 /* choice.cpp */; };
 		6A3C20231E7513FC008FCFA2 /* minimum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6A3C20201E7513FC008FCFA2 /* minimum.cpp */; };
 		6A3C20241E7513FC008FCFA2 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 6A3C20211E7513FC008FCFA2 /* README.md */; };
-		6A3C20251E7513FC008FCFA2 /* reverseString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6A3C20221E7513FC008FCFA2 /* reverseString.cpp */; };
+		6A3C20271E78F184008FCFA2 /* reversedString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6A3C20261E78F184008FCFA2 /* reversedString.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -33,7 +33,7 @@
 		6A3C201E1E7513EE008FCFA2 /* header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = header.h; sourceTree = "<group>"; };
 		6A3C20201E7513FC008FCFA2 /* minimum.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = minimum.cpp; sourceTree = "<group>"; };
 		6A3C20211E7513FC008FCFA2 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		6A3C20221E7513FC008FCFA2 /* reverseString.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = reverseString.cpp; sourceTree = "<group>"; };
+		6A3C20261E78F184008FCFA2 /* reversedString.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = reversedString.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,7 +71,7 @@
 				6A3C201E1E7513EE008FCFA2 /* header.h */,
 				6A3C20201E7513FC008FCFA2 /* minimum.cpp */,
 				6A3C20211E7513FC008FCFA2 /* README.md */,
-				6A3C20221E7513FC008FCFA2 /* reverseString.cpp */,
+				6A3C20261E78F184008FCFA2 /* reversedString.cpp */,
 			);
 			path = Spotify_Fellowship;
 			sourceTree = "<group>";
@@ -138,7 +138,7 @@
 				6A3C201F1E7513EE008FCFA2 /* choice.cpp in Sources */,
 				6A3C20241E7513FC008FCFA2 /* README.md in Sources */,
 				6A3C201C1E7513E1008FCFA2 /* main.cpp in Sources */,
-				6A3C20251E7513FC008FCFA2 /* reverseString.cpp in Sources */,
+				6A3C20271E78F184008FCFA2 /* reversedString.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,6 +267,7 @@
 				6A3C200F1E751311008FCFA2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

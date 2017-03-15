@@ -41,5 +41,8 @@ void getMinimum()
     delete [] dArray; //deletes all the values
     dArray = NULL;
     
+    cout<<"\n\n\n\n\n"<< endl;
+    choice();
+    
 }
 
