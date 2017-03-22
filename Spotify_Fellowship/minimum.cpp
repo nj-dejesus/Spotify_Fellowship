@@ -28,7 +28,8 @@ void getMinimum()
     }
     
     int min = dArray[0]; // minimum number
-    for(int i = 1; i <= count; i++)
+    int min2 = dArray[0];
+    for(int i = 1; i <= (count -1); i++)
     {
         if (dArray[i] < min)
         {
@@ -36,7 +37,15 @@ void getMinimum()
         }
         
     }
-    cout<<" The minimum number is: "<< min<< endl;
+    for(int i = 1; i <= (count - 1); i++)
+    {
+        if ((dArray[i] < min2)&& (dArray[i]>min))
+        {
+            min2 = dArray[i];
+        }
+        
+    }
+    cout<<" The 2nd minimum number is: "<< min2<< endl;
     
     delete [] dArray; //deletes all the values
     dArray = NULL;
